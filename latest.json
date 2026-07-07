@@ -1,11 +1,11 @@
 {
-  "version": "v0.6.0",
-  "notes": "# BLARE v0.6.0 — Éditeur audio & fix micro\n\n## 🎛️ Éditeur audio complet\n- **Clic droit → Éditer l'audio** sur n'importe quel son de ta bibliothèque\n- Coupe le début et la fin avec la waveform interactive\n- Ajuste le volume en temps réel\n- Prévisualise tes modifications avant d'enregistrer\n- **Enregistrer copie** : crée un nouveau son dans ta bibliothèque\n- **Enregistrer & partager** : exporte + publie directement sur la marketplace\n- Bouton Reset pour repartir de zéro\n\n## 🎤 Fix du mix micro\n- Le buffer micro passe de 150ms à 500ms de headroom\n- Plus de crackling / grésillements quand tu spam le soundboard\n- Plus de voix bizarre après avoir arrêté de jouer des sons\n- Mixage micro + sons stable même sous forte charge\n\n## 🔧 Corrections\n- Fix des setters dupliqués dans le store (stabilité)\n- Nettoyage du code et des fichiers inutilisés\n",
-  "pub_date": "2026-07-07T21:13:56.382259+00:00",
+  "version": "v0.7.0",
+  "notes": "# BLARE v0.7.0 — Éditeur audio & voix plus fiable\n\n## 🎛️ Éditeur audio complet\n- **Clic droit → Éditer l'audio** sur n'importe quel son de ta bibliothèque\n- Coupe le début et la fin avec la waveform interactive\n- Ajuste le volume en temps réel\n- Prévisualise tes modifications avant d'enregistrer\n- **Enregistrer copie** : crée un nouveau son dans ta bibliothèque\n- **Enregistrer & partager** : exporte + publie directement sur la marketplace\n- Bouton Reset pour repartir de zéro\n\n## 🎤 Voix / micro\n- Buffer micro élargi (150ms → 500ms) : plus de crackling / grésillements quand tu spam le soundboard\n- **Resynchronisation automatique du micro** : ta voix ne reste plus en retard après une grosse charge de sons, elle se recale toute seule\n- Mixage micro + sons stable même sous forte charge\n\n## 🔧 Corrections\n- L'éditeur audio reste utilisable même si la waveform ne charge pas\n- La prévisualisation ne redémarre plus quand tu déplaces le trim pendant la lecture\n- Prévisualisation correcte des sons WAV / OGG / FLAC / M4A dans l'éditeur\n- Nettoyage des dépendances et des fichiers inutilisés\n",
+  "pub_date": "2026-07-07T22:28:01.035602+00:00",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSNU9oeDlMWXZObGNzNDJHM2JYQmVvdzM2dm92MmF6QXB4eEd2aDVJQ2RYM2FuNkJrMUdYTzBNSnFQa0pmVEpZL1FYeDVFTnMwb3hsNW02UytzeWFxYmJ4NkJtWktxalFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzNDU4ODE0CWZpbGU6QkxBUkVfMC42LjBfeDY0LXNldHVwLmV4ZQpYclZ5cktiQXh6cittTldaWk1LUUdpb0JBemprMVMzazdSSGRhbTQrRkV5MXZJZmRadmI4TDBoYk50WkYrZlMrOWQ5b3lqdDFMWmJ4S0kwTmhpWkdDZz09Cg==",
-      "url": "https://github.com/51WayKey/blare-releases/releases/download/v0.6.0/BLARE_0.6.0_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSNU9oeDlMWXZObFhvLytqNlRmYmRYU0J5NjlwOC9adVBIY3ZNV1ZUUjFBcHY4Z3FFcUJvY1pjSTRobmVnc0JKSm5LeUh0Y3NtcDBScXUwZm5KUFJyK2N2RndkVERKeUFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzNDYzMjcyCWZpbGU6QkxBUkVfMC43LjBfeDY0LXNldHVwLmV4ZQpscUJ6YmR5VDNvcVlaTllqTWs1WDJsbjZZRW5WQW9PaTZ3Rm5rVUNSUzFtVXpsT1Y2TGxnQzRmVjZDSndSTzJ4TisrMFQyNksxQmMzSUZxRU1zTHpDQT09Cg==",
+      "url": "https://github.com/51WayKey/blare-releases/releases/download/v0.7.0/BLARE_0.7.0_x64-setup.exe"
     }
   }
 }
